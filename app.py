@@ -8,7 +8,7 @@ from PIL import Image
 # Roboflow API
 # ---------------------------
 
-rf = Roboflow(api_key="q17RjoLPdYRrtjjiDSe1")
+rf = Roboflow(api_key=st.secrets["ROBOFLOW_API_KEY"])
 
 st.write("Loading Weld Model...")
 
